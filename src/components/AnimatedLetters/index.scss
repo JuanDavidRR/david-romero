@@ -1,0 +1,55 @@
+.text-animate {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+}
+
+.text-animateTwo {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+}
+
+.text-animate-hover {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+
+  &:hover {
+    animation: rubberBand 1s;
+    color: #dd005c;
+  }
+}
+
+@for $i from 1 through 41 {
+  .text-animate._#{$i} {
+    animation-delay: #{$i / 13}s;
+  }
+}
+
+@for $i from 16 through 27 {
+  .text-animate._#{$i} {
+    font-weight: 900;
+    color: #00addd;
+    letter-spacing: 3px;
+  }
+  .text-animate-hover._#{$i} {
+
+    -webkit-text-stroke: 2px #00addd;
+    color: #dd005c;
+    display: inline-block;
+    letter-spacing: 3px;
+    color: transparent;
+    transition: 1.4s;
+  }
+  }
+
+  

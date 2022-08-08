@@ -1,0 +1,144 @@
+.page {
+  width: 100%;
+  height: 100%;
+  animation: fadeIn 1.5s forwards;
+}
+
+.top-tags {
+  top: 35px;
+}
+
+.top-htmlTag{
+  top: 15px;
+}
+
+.tags {
+  color: #ff006a;
+  opacity: 1;
+  position: relative;
+  font-weight: 300;
+  left: 120px;
+  font-size: 18px;
+  font-family: 'La Belle Aurore', cursive;
+  z-index: -1;
+  @media (max-width: 900px) {
+    left: 30px;
+  }
+}
+
+.text-zone{
+  flex: 1;
+}
+.tags.bottom-tags{
+@media (max-width: 800px) {
+  display: none;
+}
+}
+
+.bottom-tag-html {
+  margin-left: -20px;
+}
+
+.container {
+  width: 100%;
+  will-change: contents;
+  margin: 0 auto;
+  z-index: 1;
+  height: 100%;
+  margin-top: 10px;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 7rem;
+
+  align-items: center;
+  @media (max-width:900px) {
+    padding: 0 10px;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  h1, h2, h3{
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+.container.contact-page,
+.container.about-page,
+.container.portfolio-page {
+  padding-left: 120px;
+  padding-right: 30px;
+  
+    h1 {
+      font-size: 5rem;
+      font-family: 'Raleway', sans-serif;
+      color: #ff006a;
+      font-weight: 900;
+      position: relative;
+      margin-bottom: 20px;
+      z-index: 1;
+      -webkit-text-stroke: 2px #ff006a;
+      -webkit-text-fill-color: transparent;
+
+      &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ff006a;
+        font-size: 18px;
+        opacity: 0.8;
+        line-height: 18px;
+        margin-right: 10px;
+        -webkit-text-stroke: 0px #ff006a;
+        -webkit-text-fill-color: #ff006a;
+        @media (max-width: 800px) {
+          content: '';
+        }
+      }
+
+      &:after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #ff006a;
+        font-size: 18px;
+        line-height: 18px;
+        margin-left: 10px;
+        opacity: 0.8;
+        -webkit-text-stroke: 0px #ff006a;
+        -webkit-text-fill-color: #ff006a;
+        @media (max-width: 800px) {
+          content: '';
+        }
+      }
+    }
+
+    p {
+      color: #fff;
+      font-weight: 300;
+      max-width: fit-content;
+      animation: pulse 1s;
+      &:nth-of-type(1) {
+        animation-delay: 1.1s;
+      }
+      &:nth-of-type(2) {
+        animation-delay: 1.2s;
+      }
+      &:nth-of-type(3) {
+        animation-delay: 1.3s;
+      }
+    }
+
+
+  .text-animate-hover {
+    &:hover {
+      color: #fff;
+    }
+  }
+  @media (max-width: 900px) {
+    padding: 20px;
+    display: inline-block;
+
+  }
+}
+

@@ -1,0 +1,20 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2'),
+    url('./assets/fonts/LaBelleAurore.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input,
+textarea {
+  font-family: 'Raleway', sans-serif;
+  &::placeholder{
+    color: white;
+  }
+}

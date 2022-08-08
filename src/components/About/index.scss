@@ -1,0 +1,68 @@
+.icons-container{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    text-align: center;
+    @media (max-width:800px) {
+        grid-template-columns: repeat(2,1fr);
+    }
+    svg{
+        font-size: 8rem;
+        transition: 0.4s;
+        cursor: pointer;
+        &:hover{
+            transform: rotate(360deg);
+        }
+        @media (max-width:800px) {
+            font-size: 6rem;
+        }
+    }
+    .card-skill{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        transition: 0.4s;
+        padding: 20px 10px;
+        border-radius: 10px;
+        span{
+            font-size: 1.5rem;
+        }
+        &:hover{
+            background-color: #00addd53;
+        }
+        img{
+            width: 100px;
+            transition: 0.4s;
+            &:hover{
+                transform: rotate(360deg);
+            }
+            @media (max-width:800px) {
+                width: 70px;
+            }
+        }
+    }
+}
+
+.icons-container-mobile{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(6,1fr);
+    svg{
+        font-size: 5rem;
+        transition: 0.4s;
+        cursor: pointer;
+        &:hover{
+            transform: rotate(360deg);
+        }
+    }
+    @media (min-width:801px) {
+        display: none;
+    }
+}

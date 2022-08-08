@@ -1,0 +1,99 @@
+.portfolio-page {
+    display: block;
+    .product-list-description {
+        text-align: justify;
+    }
+
+    .product-list {
+        width: 100%;
+
+        ul {
+            width: 100%;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            display: grid;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+            gap: 2rem;
+        }
+    }
+}
+
+.product-wrap {
+    padding: 0;
+    margin: 0;
+
+    .product {
+        height: 230px;
+        overflow: hidden;
+        z-index: 1;
+        position: relative;
+        margin: 0;
+
+        .product-browser {
+            height: 20px;
+            background-color: rgb(207, 207, 207);
+            display: flex;
+            align-items: center;
+            position: sticky;
+            padding-left: 10px;
+            top: 0px;
+            z-index: 2;
+        }
+
+        .product-circle {
+            width: 6px;
+            height: 6px;
+            margin: 3px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+
+        .product-image {
+            width: 100%;
+            transition: all 15s ease;
+        }
+
+        &:hover {
+            transition: 0.2s ease;
+        }
+
+        &:hover .product-image {
+            transform: translateY(-80%);
+        }
+
+        .product-container {
+            margin: 0;
+        }
+        &:hover img {
+            transform: translateY(100%);
+        }
+    }
+
+    .product-info {
+        transform: translateY(-150px);
+        transition: 0.4s;
+        background-color: transparent;
+        border: 1px solid #ff006a;
+        padding: 5px 20px;
+        @media (max-width: 500px) {
+            display: none;
+        }
+        h4{
+            font-size: 2rem;
+            text-transform: uppercase;
+            line-height: 2px;
+            color: #ff006a;
+            font-weight: 900;
+        }
+        p{
+            font-size: 1.7rem;
+        }
+    }
+
+    &:hover .product-info {
+        transform: translateY(-5px);
+    }
+}
+

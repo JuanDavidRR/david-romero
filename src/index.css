@@ -1,0 +1,27 @@
+html {
+  font-size: 62.5%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 300 2rem/1.4 'Raleway', sans-serif;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  animation: gradient 5s ease infinite alternate;
+  transition: 0.4s;
+  height: 100%;
+}
+
+@keyframes gradient {
+  from {
+    background-color: #0c0c0c;
+  }
+  to {
+    background-color: #000e23;
+  }
+}
