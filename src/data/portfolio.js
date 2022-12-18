@@ -1,10 +1,10 @@
 export const portfolio = [
 	{
 		id: 1,
-		img: "https://i.imgur.com/bQ2uOj6.jpg",
-		link: "https://janrebel.com/",
-		title: "Jan Rebel",
-		description: "Personal blog music online",
+		img: "https://i.imgur.com/rfAMjai.jpg",
+		link: "https://mundodesillas.com",
+		title: "World of Chairs",
+		description: "Personal Ecommerce",
 	},
 	{
 		id: 2,

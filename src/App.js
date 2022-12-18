@@ -6,6 +6,7 @@ import Layout from './components/Layout'
 // import Portfolio from './components/Portfolio/index'
 import './App.scss'
 import { lazy, Suspense } from 'react'
+import Loading from './components/Loading/Loading'
 
 const About = lazy(()=> import("./components/About/"))
 const Contact = lazy(()=> import("./components/Contact/"))
@@ -14,7 +15,7 @@ const Portfolio = lazy(()=> import("./components/Portfolio/"))
 function App() {
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loading/>}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />          <Route path="/about" element={<About />}/>

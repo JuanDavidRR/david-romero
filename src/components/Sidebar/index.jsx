@@ -22,10 +22,10 @@ const Sidebar = () => {
   const handleNav = () => {
     setActive(!active)
   }
+
   const handleWindowScroll = () => {
     window.scrollTo(0, 0)
   }
-
   return (
     <>
       <div className="nav-bar">
@@ -77,7 +77,12 @@ const Sidebar = () => {
         </ul>
       </div>
 
-      <header className={active ? 'nav-bar-mobile activate' : 'nav-bar-mobile'}>
+      <header
+        id="navbar-mobile"
+        className={
+          active ? 'nav-bar-mobile activate' : 'nav-bar-mobile inactivate'
+        }
+      >
         <Link className="logo" to="/">
           <span className="logo-letter">D</span>
           <span className="logo-letter">R</span>
@@ -103,7 +108,6 @@ const Sidebar = () => {
                 to="/about"
               >
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
-                {window.scrollTo(0, 0)}
                 About Me
               </NavLink>
             </li>
@@ -115,7 +119,6 @@ const Sidebar = () => {
                 to="/portfolio"
               >
                 <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
-                {window.scrollTo(0, 0)}
                 Portfolio
               </NavLink>
             </li>
@@ -127,7 +130,6 @@ const Sidebar = () => {
                 to="/contact"
               >
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-                {window.scrollTo(0, 0)}
                 Contact
               </NavLink>
             </li>

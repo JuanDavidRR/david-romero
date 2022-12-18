@@ -1,0 +1,107 @@
+.skeleton {
+    animation: skeleton-loading 0.5s linear infinite alternate;
+    border-radius: 20px;
+}
+
+#loading{
+    width: 75%;
+    transform: scaleX(120px);
+    margin: 5rem auto;
+    @media (max-width: 900px) {
+        transform: translateX(0px);
+        width: 100%;
+        padding: 0 20px;
+      }
+}
+
+.skeleton-text {
+    height: 5px;
+    margin-bottom: 1rem;
+}
+
+.skeleton-text:last-child {
+    margin-bottom: 0;
+    width: 150px;
+}
+
+.skeleton-title{
+    width: 40%;
+    min-width: 200px;
+    height: 15px;
+    margin-bottom: 5rem;
+}
+
+.skeleton-text-large{
+    height: 5px;
+    margin-bottom: 2rem;
+}
+
+.skeleton-text-large:nth-child(5),
+.skeleton-text-large:nth-child(10),
+.skeleton-text-large:nth-child(15),
+.skeleton-text-large:nth-child(20){
+   width: 40%;
+   margin-bottom: 5rem;
+}
+
+.skeleton-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 2rem auto;
+}
+
+@keyframes skeleton-loading {
+
+    0%,
+    100% {
+        background-color: rgb(103, 103, 103);
+    }
+
+    100% {
+        background-color: gainsboro;
+    }
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 10rem;
+    align-items: center;
+    position: relative;
+}
+
+
+.card {
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+.card:focus{
+    background-color: blue;
+}
+
+@media (max-width: 700px) {
+    main {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card img {
+        min-height: 300px;
+        text-align: center;
+        margin: 1rem 0;
+        margin: 0 auto;
+    }
+}

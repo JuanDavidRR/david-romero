@@ -7,6 +7,8 @@ const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+
     return setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
