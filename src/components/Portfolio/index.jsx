@@ -1,7 +1,6 @@
 import React, { lazy, Suspense, useEffect, useState } from 'react'
 import { portfolio } from '../../data/portfolio'
 import AnimatedLetters from '../AnimatedLetters/index'
-import Loading from '../Loading/Loading'
 import LoadingPortfolio from '../Loading/LoadingProjects'
 import './index.scss'
 const Card = lazy(()=>import('./Card'))

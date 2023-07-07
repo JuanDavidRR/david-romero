@@ -8,11 +8,11 @@ export const portfolio = [
 	},
 	{
 		id: 2,
-		img: "https://i.imgur.com/tWrr94P.jpg",
-		link: "https://inlat.la/",
-		title: "Inlat",
+		img: "https://i.imgur.com/YTihhR0.jpg",
+		link: "https://www.eventus.com/",
+		title: "Eventus",
 		description:
-			"Empresarial website for an agency process transformations",
+			"Provider of multi-asset class trade surveillance and market solutions",
 	},
 	{
 		id: 3,
@@ -21,6 +21,7 @@ export const portfolio = [
 		title: "Constructora Ingeurbe",
 		description: "Real state website of urban projects",
 	},
+
 	{
 		id: 4,
 		img: "https://i.imgur.com/x5qsgPu.jpg",
@@ -29,15 +30,15 @@ export const portfolio = [
 		description: "Ecommerce Pharmacy website",
 	},
 	{
-		id: 6,
-		img: "https://i.imgur.com/6O1qN3I.jpg",
-		link: "https://cojunal.grupolyown.co/",
-		title: "Constructora Jemur",
+		id: 5,
+		img: "https://imgur.com/Kf07SZS.jpg",
+		link: "https://www.imperiallighting.com",
+		title: "Imperial Lighting",
 		description:
-			"Real state website of institutional projects",
+			"Lighting installation and maintenance company in Chicago",
 	},
 	{
-		id: 15,
+		id: 6,
 		img: "https://imgur.com/tC9Sg7M.jpg",
 		link: "https://logicalmediagroup.com",
 		title: "Logical Media Group",
@@ -45,14 +46,14 @@ export const portfolio = [
 			"Digital marketing agency website",
 	},
 	{
-		id: 16,
+		id: 7,
 		img: "https://imgur.com/bsc7oqG.jpg",
 		link: "https://insightsinmarketing.com",
 		title: "Insights in Marketing",
 		description: "Website for a company that track data",
 	},
 	{
-		id: 17,
+		id: 8,
 		img: "https://imgur.com/5Z3WmbJ.jpg",
 		link: "https://wealthpoint.net",
 		title: "Wealth Point",
@@ -60,36 +61,52 @@ export const portfolio = [
 			"Agency that push entrepreneurs",
 	},
 	{
-		id: 5,
+		id: 9,
+		img: "https://i.imgur.com/tWrr94P.jpg",
+		link: "https://inlat.la/",
+		title: "Inlat",
+		description:
+			"Empresarial website for an agency process transformations",
+	},
+	{
+		id: 10,
 		img: "https://i.imgur.com/8TMma7G.jpg",
 		link: "https://lyownagency.co/",
 		title: "Lyown Agency",
 		description: "Digital Agency website",
 	},
 	{
-		id: 7,
-		img: "https://i.imgur.com/bGaakKq.jpg",
-		link: "https://displex.co/",
-		title: "Displex",
-		description: "Website of customs house services",
+		id: 11,
+		img: "https://i.imgur.com/6O1qN3I.jpg",
+		link: "https://cojunal.grupolyown.co/",
+		title: "Constructora Jemur",
+		description:
+			"Real state website of institutional projects",
 	},
 	{
-		id: 8,
+		id: 12,
 		img: "https://i.imgur.com/UUMxMOL.jpg",
 		link: "https://lyownhunter.grupolyown.co/",
 		title: "Lyown Hunter",
 		description: "One Page for human resources projects",
 	},
 	{
-		id: 9,
+		id: 13,
+		img: "https://imgur.com/MIvtjMr.jpg",
+		link: "https://colgrovesurgerycenter.com",
+		title: "Colgrove Surgery Center",
+		description: "Surgery center in Atlanta",
+	},
+	{
+		id: 14,
 		img: "https://i.imgur.com/ae9KEqa.jpg",
 		link: "https://prisier.co/",
-		title: "Prisier",
+		title: "Rebel E-commerce",
 		description:
 			"Emprendeur ",
 	},
 	{
-		id: 10,
+		id: 15,
 		img: "https://i.imgur.com/8xUyaHJ.jpg",
 		link: "https://figurella.com.co/",
 		title: "Figurella Colombia",
@@ -97,7 +114,7 @@ export const portfolio = [
 			"Fitness methods to lose weight for women",
 	},
 	{
-		id: 13,
+		id: 16,
 		img: "https://imgur.com/h6raUHb.jpg",
 		link: "https://de-fi-six.vercel.app",
 		title: "Crypto Template",
@@ -105,7 +122,15 @@ export const portfolio = [
 			"Website for a crypto company",
 	},
 	{
-		id: 14,
+		id: 17,
+		img: "https://imgur.com/qXCZ1FF.jpg",
+		link: "https://gleaming-kulfi-004ded.netlify.app",
+		title: "Rebel E-commerce",
+		description:
+			"Emprendeur ",
+	},
+	{
+		id: 18,
 		img: "https://imgur.com/DAshj3A.jpg",
 		link: "https://marketing-template.vercel.app",
 		title: "Marketing Website",
@@ -113,18 +138,26 @@ export const portfolio = [
 			"Digital marketing for SEM",
 	},
 	{
-		id: 11,
+		id: 19,
+		img: "https://imgur.com/Qe4i50X.jpg",
+		link: "https://soft-hotteok-30610c.netlify.app/",
+		title: "Lake Park School District",
+		description:
+			"Draft copy for a school website",
+	},
+	{
+		id: 20,
 		img: "https://i.imgur.com/QBgZM69.jpg",
 		link: "https://juandavidrr.github.io/Card-Task/",
 		title: "TaskApp",
-		description: "Aplicación web para gestionar las actividades",
+		description: "Web app to manage your basic tasks",
 	},
 	{
-		id: 12,
+		id: 21,
 		img: "https://i.imgur.com/4SNvz0H.jpg",
 		link: "https://juandavidrr.github.io/Notes-App/",
 		title: "Notes App",
 		description:
-			"Aplicación web gestionar notas y apuntes con autenticación",
+			"Web app to manage your notes",
 	},
 ];
