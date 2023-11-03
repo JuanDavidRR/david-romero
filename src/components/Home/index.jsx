@@ -33,8 +33,8 @@ const Home = () => {
 
   return (
     <>
-      <div className="container home-page">
-        <div className="text-zone">
+      <section className="container home-page">
+        <section className="text-zone">
           <h1>
           <span className={`${letterClass} _11 hi-span`}> H</span>
             <span className={`${letterClass} _12 hi-span`}>I, </span>
@@ -75,9 +75,9 @@ const Home = () => {
             CONTACT ME
           </Link>
           </div>
-        </div>
+        </section>
         {/* Imagen */}
-      </div>
+      </section>
     </>
   )
 }

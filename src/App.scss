@@ -18,3 +18,39 @@ textarea {
     color: white;
   }
 }
+
+
+.button-group{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 5rem;
+  @media (max-width:800px) {
+    display: block;
+  }
+  .flat-button {
+    color: #00addd;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #00addd;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    transition: 0.4s;
+    @media (max-width:800px) {
+      display: block;
+      margin: 1rem 0;
+    }
+    &.projects{
+      color: #ff006a;
+      border: 1px solid #ff006a;
+    }
+
+    &:hover {
+      color: #00addd;
+      border: 1px solid #00addd;
+    }
+  }
+  }

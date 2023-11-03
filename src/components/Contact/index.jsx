@@ -46,8 +46,8 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container contact-page">
-        <div className="text-zone">
+      <section className="container contact-page">
+        <section className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -58,7 +58,7 @@ const Contact = () => {
           <p>
             If you want to get in touch with me, start a new project or give me the oportunity to work for you please let me your message! I will text you back as soon as possible
           </p>
-          <div className="contact-form">
+          <section className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
                   <input placeholder="Name" type="text" name="name" required />
                   <input
@@ -80,11 +80,11 @@ const Contact = () => {
                   ></textarea>
                   <input type="submit" className="flat-button" value="SEND" />
             </form>
-          </div>
-        </div>
+          </section>
+        </section>
         <div className="map-wrap">
         
-        <div className="info-map">
+        <section className="info-map">
           <ul>
             <li><h4>Personal Info</h4></li>
             <li><a href="mailto:juandavidrom@outlook.com"><FontAwesomeIcon icon={faEnvelope}/> juandavidrom@outlook.com</a></li>
@@ -92,7 +92,7 @@ const Contact = () => {
             <li><a href="https://www.linkedin.com/in/david-romero-58b7621a8/"><FontAwesomeIcon icon={faLinkedin}/> Linkedin</a></li>
             <li>Bogotá, Colombia</li>
           </ul>
-        </div>
+        </section>
         <MapContainer center={[4.6975074,-74.1122391]} zoom={16}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[4.6975074,-74.1122391]}>
@@ -100,7 +100,7 @@ const Contact = () => {
             </Marker>
           </MapContainer>
         </div>
-      </div>
+      </section>
     </>
   )
 }
