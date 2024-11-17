@@ -28,28 +28,37 @@ const About = () => {
           </h1>
           <h2>Who i am?</h2>
           <p>
-            I'm very ambitious front-end developer looking for a role in IT
-            company with the opportunity to work with the latest technologies on
-            challenging and diverse projects.
+            I am a highly ambitious front-end developer seeking a role in an IT
+            company that offers the opportunity to work with the latest
+            technologies on challenging and diverse projects.
           </p>
           <h2>My Experience</h2>
           <p>
-            I have been in the web industry for 3 years working as web
-            developer, web master and SEO strategist in Colombian and American
-            Companies, helping my clients creating websites and web apps to
-            helping thousands of clients.
+            I have over 5 years of experience in the web industry, working as a{' '}
+            <b>
+              Web Developer, Digital Analytics Specialist, and Technical SEO
+              Strategist
+            </b>{' '}
+            for Colombian and American companies. I have helped my clients
+            create websites and web apps, reaching and benefiting{' '}
+            <b>thousands of users</b>.
           </p>
           <p>
-            Many people think that young people are lazy and ware underated. I
-            want to prove that i will be a great resource in your projects. I am
-            not the most skilled person but i love learn new things in this
-            wonderful world
+            Many people think young professionals are lazy or underestimated. I
+            aim to prove that I can be a valuable asset to your projects. While
+            I may not be the most skilled person, I am passionate about learning
+            new things in this amazing field.
           </p>
         </main>
         <section>
           <SkillsCards />
           <div className="btn__container">
-            <a href="https://platzi.com/p/davidromerorodas/" target="_blank" rel="noreferrer" className="flat-button projects">
+            <a
+              href="https://platzi.com/p/davidromerorodas/"
+              target="_blank"
+              rel="noreferrer"
+              className="flat-button projects"
+            >
               CHECK MY CERTIFICATIONS
             </a>
           </div>
